@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationActivity">
+
+    <Button
+        android:id="@+id/loc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:padding="5sp"
+        android:text="@string/loc_button"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:textSize="26sp"
+        android:id="@+id/button_address"
+        android:text="Pobeierz Adres"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="@+id/loc_button"
+        app:layout_constraintTop_toBottomOf="@+id/loc_button"/>
+
+    <TextView
+        android:id="@+id/loc_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/loc_hint"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/button_address"
+        app:layout_constraintTop_toBottomOf="@+id/button_address" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_location"
+        android:layout_marginTop="25dp"
+        android:text="default"
+        app:layout_constraintStart_toStartOf="@+id/loc_hint"
+        app:layout_constraintTop_toBottomOf="@+id/loc_hint"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_address"
+        android:layout_marginTop="25dp"
+        android:text="default"
+        app:layout_constraintStart_toStartOf="@+id/text_view_location"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_location"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

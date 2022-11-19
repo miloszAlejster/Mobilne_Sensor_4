@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="sensors_count">Liczba czyjników: %d</string>
+    <string name="missing_sensor">Brak czujnika</string>
+    <string name="loc_button">Pobierz lokalizację</string>
+    <string name="loc_hint">Wciśnij przycisk, aby pobrać ostatnią lokalizację</string>
+    <string name="location_text">"Szerokość geograficzna: %1$.4f \nDługośc geograficzna: %2$.4f \nCzas: %3$tr"</string>
+    <string name="address_text">"Address: %1$s \nCzas: %2$tr"</string>
+</resources>
